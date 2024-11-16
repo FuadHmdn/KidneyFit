@@ -13,13 +13,20 @@
         android:theme="@style/Theme.KidneyFit"
         tools:targetApi="31">
         <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.ContohOlahragaActivity"
             android:exported="false" />
         <activity
             android:name=".ui.ManfaatActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.SplashActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
