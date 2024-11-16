@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.ContohOlahragaActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/kembali"
+            android:src="@drawable/ic_arrow_back_ios_new_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/contohOlahraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/contoh_olahraga_title"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/back_btn" />
+
+        <TextView
+            android:id="@+id/jalan_kaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/jalan_kaki"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contohOlahraga" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_1"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/jalan_kaki"
+            app:layout_constraintTop_toBottomOf="@id/jalan_kaki">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/jalan_kaki_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_1"
+            tools:text="@string/jalan_kaki_isi" />
+
+        <TextView
+            android:id="@+id/bersepeda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/bersepeda2"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jalan_kaki_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_2"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/bersepeda"
+            app:layout_constraintTop_toBottomOf="@id/bersepeda">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img11" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/bersepeda_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_2"
+            tools:text="@string/bersepeda_isi" />
+
+        <TextView
+            android:id="@+id/renang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/renang2"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bersepeda_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_3"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/renang"
+            app:layout_constraintTop_toBottomOf="@id/renang">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img2" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/renang_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_3"
+            tools:text="@string/renang_isi" />
+
+        <TextView
+            android:id="@+id/yoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/yoga2"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/renang_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_4"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/yoga"
+            app:layout_constraintTop_toBottomOf="@id/yoga">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img3" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/yoga_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_4"
+            tools:text="@string/yoga_isi" />
+
+        <TextView
+            android:id="@+id/senam_aerobik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/senam_aerobik"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/yoga_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_5"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/senam_aerobik"
+            app:layout_constraintTop_toBottomOf="@id/senam_aerobik">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img4" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/senam_aerobik_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_5"
+            tools:text="@string/senam_aerobik_isi" />
+
+        <TextView
+            android:id="@+id/tai_chi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/tai_chi2"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senam_aerobik_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_6"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/tai_chi"
+            app:layout_constraintTop_toBottomOf="@id/tai_chi">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_6163" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tai_chi_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_6"
+            tools:text="@string/tai_chi_isi" />
+
+        <TextView
+            android:id="@+id/jogging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/jogging"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tai_chi_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_7"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/jogging"
+            app:layout_constraintTop_toBottomOf="@id/jogging">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img8" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/jogging_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_7"
+            tools:text="@string/jogging_isi" />
+
+        <TextView
+            android:id="@+id/latihanKetahanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/latihan_otot"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jogging_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_8"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/latihanKetahanan"
+            app:layout_constraintTop_toBottomOf="@id/latihanKetahanan">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img9" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/latihanKetahanan_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_8"
+            tools:text="@string/latihan_ketahanan_isi" />
+
+        <TextView
+            android:id="@+id/mendaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/mendaki"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/latihanKetahanan_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_9"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/mendaki"
+            app:layout_constraintTop_toBottomOf="@id/mendaki">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img10" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/mendaki_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_9"
+            tools:text="@string/mendaki_isi" />
+
+        <TextView
+            android:id="@+id/strecthing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/streching"
+            android:textColor="@color/md_theme_onBackground"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mendaki_isi" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_10"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="@id/strecthing"
+            app:layout_constraintTop_toBottomOf="@id/strecthing">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img7" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/stretching_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/img_10"
+            tools:text="@string/stretching_isi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

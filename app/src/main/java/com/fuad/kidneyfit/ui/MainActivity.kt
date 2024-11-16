@@ -28,5 +28,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ManfaatActivity::class.java)
             startActivity(intent)
         }
+
+        binding.contohOlahraga.setOnClickListener {
+            val intent = Intent(this, ContohOlahragaActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

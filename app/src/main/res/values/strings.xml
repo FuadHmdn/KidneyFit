@@ -174,4 +174,118 @@
         ]]>
     </string>
 
+    <string name="contoh_olahraga_title">Contoh Olahraga</string>
+    <string name="jalan_kaki">Jalan Kaki</string>
+    <string name="bersepeda2">Bersepeda Statis atau di Luar Ruangan</string>
+    <string name="renang2">Renang</string>
+    <string name="yoga2">Yoga</string>
+    <string name="senam_aerobik">Senam Aerobik Intensitas Ringan</string>
+    <string name="tai_chi2">Tai Chi</string>
+    <string name="jogging">Jogging atau Lari Santai</string>
+    <string name="latihan_otot">Latihan Ketahanan Otot (Resistance Training)</string>
+    <string name="mendaki">Mendaki Bukit Ringan (Hiking)</string>
+    <string name="streching">Stretching atau Peregangan Ringan</string>
+
+    <string name="jalan_kaki_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Aktivitas sederhana ini cocok untuk semua usia, termasuk pasien dengan penyakit ginjal kronis (PGK).<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Meningkatkan aliran darah ke ginjal.<br/>
+        Membantu menurunkan tekanan darah dan berat badan.<br/>
+        <b>&#8226; Durasi:</b> 30 menit setiap hari, intensitas ringan hingga sedang.
+        ]]>
+    </string>
+
+    <string name="bersepeda_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Bersepeda adalah olahraga berdampak rendah yang aman untuk pasien ginjal.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Meningkatkan kesehatan kardiovaskular.<br/>
+        Membantu mengontrol gula darah pada penderita diabetes.<br/>
+        <b>&#8226; Durasi:</b> 20–40 menit, 3–5 kali seminggu.
+        ]]>
+    </string>
+
+    <string name="renang_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Aktivitas fisik yang melibatkan seluruh tubuh tanpa memberikan tekanan berlebih pada sendi.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Mengurangi retensi cairan dan pembengkakan.<br/>
+        Melatih otot pernapasan dan meningkatkan kapasitas paru.<br/>
+        <b>&#8226; Durasi:</b> 20–30 menit, 3–4 kali seminggu.
+        ]]>
+    </string>
+
+    <string name="yoga_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Latihan peregangan yang melibatkan pernapasan teratur dan meditasi.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Mengurangi stres dan inflamasi sistemik.<br/>
+        Membantu menurunkan tekanan darah.<br/>
+        <b>&#8226; Durasi:</b> 20–30 menit sehari.
+        ]]>
+    </string>
+
+    <string name="senam_aerobik_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Aktivitas aerobik seperti senam Zumba intensitas ringan hingga sedang.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Meningkatkan elastisitas pembuluh darah.<br/>
+        Membantu memperbaiki metabolisme lipid.<br/>
+        <b>&#8226; Durasi:</b> 30 menit, 3–5 kali seminggu.
+        ]]>
+    </string>
+
+    <string name="tai_chi_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Olahraga tradisional asal Tiongkok yang melibatkan gerakan lambat dan terkendali.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Mengurangi stres dan meningkatkan sirkulasi darah.<br/>
+        Memperbaiki keseimbangan fisik dan mental.<br/>
+        <b>&#8226; Durasi:</b> 15–30 menit sehari.
+        ]]>
+    </string>
+
+    <string name="jogging_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Aktivitas lari dengan kecepatan rendah yang aman bagi individu dengan risiko kardiovaskular rendah.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Membantu mengontrol tekanan darah.<br/>
+        Meningkatkan sensitivitas insulin.<br/>
+        <b>&#8226; Durasi:</b> 15–20 menit, 3–4 kali seminggu.
+        ]]>
+    </string>
+
+    <string name="latihan_ketahanan_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Latihan seperti menggunakan beban ringan atau resistance band.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Membantu mempertahankan massa otot pada pasien PGK.<br/>
+        Meningkatkan metabolisme dan kesehatan tulang.<br/>
+        <b>&#8226; Durasi:</b> 2–3 kali seminggu, 15–30 menit per sesi.
+        ]]>
+    </string>
+
+    <string name="mendaki_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Aktivitas luar ruangan dengan intensitas sedang.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Melatih kapasitas fisik dan mengurangi stres.<br/>
+        Meningkatkan stamina kardiovaskular.<br/>
+        <b>&#8226; Durasi:</b> 1–2 jam, seminggu sekali.
+        ]]>
+    </string>
+
+    <string name="stretching_isi">
+        <![CDATA[
+        <b>&#8226; Deskripsi:</b> Peregangan otot sederhana yang dapat dilakukan di rumah.<br/>
+        <b>&#8226; Manfaat:</b><br/>
+        Mengurangi kekakuan otot akibat imobilitas.<br/>
+        Meningkatkan sirkulasi darah tanpa membebani ginjal.<br/>
+        <b>&#8226; Durasi:</b> 10–15 menit sehari.
+        ]]>
+    </string>
+
+    <string name="gambar">gambar</string>
+
 </resources>
