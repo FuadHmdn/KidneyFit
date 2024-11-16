@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.fuad.kidneyfit"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.fuad.kidneyfit"
@@ -34,7 +34,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding
+        viewBinding = true
     }
 }
 
