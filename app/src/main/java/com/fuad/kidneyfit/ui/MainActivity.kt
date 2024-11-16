@@ -23,5 +23,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LatarBelakangActivity::class.java)
             startActivity(intent)
         }
+
+        binding.manfaat.setOnClickListener {
+            val intent = Intent(this, ManfaatActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
