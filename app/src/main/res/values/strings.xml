@@ -287,5 +287,12 @@
     </string>
 
     <string name="gambar">gambar</string>
+    <string name="welcome_text">Selamat Datang Di KidneyFit!</string>
+    <string name="about_app">KidneyFit adalah sebuah aplikasi yang dibuat sebagai health project pada blok Genitourinaria FK UNILA 2022 yang berisi rangkuman materi seputar Manfaat Olahraga Teratur Untuk Kesehatan Ginjal.</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="npm">NPM: 2218011190</string>
+    <string name="nama">Karina Virda Ardani</string>
+    <string name="dibuat_oleh">Dibuat Oleh:</string>
+    <string name="about">Tentang Aplikasi</string>
 
 </resources>
