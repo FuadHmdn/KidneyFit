@@ -5,8 +5,173 @@
     <string name="pelajari_lebih_lanjut"><u>Pelajari lebih lanjut</u></string>
     <string name="manfaat_olahraga_title">Manfaat Olahraga</string>
     <string name="contoh_olahraga">Contoh Olahraga</string>
+    <string name="kembali">kembali</string>
+    <string name="tutup">tutup</string>
 
     <!--MATERI-->
     <string name="latar_belakang_isi">Ginjal adalah organ vital dalam tubuh manusia yang memiliki fungsi penting dalam menjaga homeostasis cairan, elektrolit, serta pengeluaran produk limbah metabolisme melalui urin. Fungsi ginjal yang optimal mendukung kestabilan berbagai sistem tubuh, termasuk sistem kardiovaskular dan endokrin. Namun, dalam beberapa dekade terakhir, prevalensi gangguan fungsi ginjal, terutama penyakit ginjal kronis (PGK), telah meningkat secara signifikan di seluruh dunia. Hal ini dipengaruhi oleh berbagai faktor, termasuk peningkatan angka kejadian hipertensi, diabetes mellitus, obesitas, dan penuaan populasi.\n\nMenurut data dari Global Burden of Disease, PGK menempati urutan ke-11 penyebab utama kematian secara global, dengan insidensi yang terus meningkat setiap tahunnya. Di Indonesia, prevalensi PGK juga menjadi perhatian serius, sebagaimana dilaporkan oleh Riset Kesehatan Dasar (Riskesdas). Penyebab utama PGK meliputi nefropati diabetik, hipertensi, serta penyakit ginjal primer seperti glomerulonefritis dan penyakit ginjal polikistik.\n\nPGK merupakan kondisi progresif di mana fungsi ginjal secara perlahan menurun dari waktu ke waktu. Jika tidak dikelola dengan baik, PGK dapat berkembang menjadi penyakit ginjal stadium akhir (end-stage renal disease/ESRD), yang memerlukan dialisis atau transplantasi ginjal. Selain itu, PGK sering kali tidak terdiagnosis pada tahap awal karena gejala awal yang tidak spesifik, seperti kelelahan ringan atau hipertensi. Oleh karena itu, upaya pencegahan dan pengelolaan dini menjadi sangat penting dalam mengurangi beban penyakit ini.\n\nSalah satu pendekatan pencegahan yang mendapatkan perhatian luas dalam bidang medis adalah melalui modifikasi gaya hidup, termasuk aktivitas fisik teratur. Aktivitas fisik telah terbukti memiliki berbagai manfaat kesehatan, mulai dari meningkatkan fungsi kardiovaskular hingga memperbaiki kontrol metabolik. Dalam konteks penyakit ginjal, olahraga teratur dapat membantu mengontrol faktor risiko utama seperti hipertensi, resistensi insulin, dan obesitas, yang merupakan kontributor utama perkembangan PGK.\n\nDalam konteks medis, olahraga teratur dapat dianggap sebagai bagian dari intervensi multimodal untuk mencegah dan mengelola penyakit ginjal. Aktivitas fisik bekerja secara sinergis dengan terapi farmakologis, seperti penghambat RAAS atau pengontrol glikemik, dalam memperlambat progresi PGK. Selain itu, olahraga memiliki efek protektif terhadap komplikasi kardiovaskular, yang sering terjadi pada pasien ginjal kronis.\n\nPenelitian terbaru juga menunjukkan bahwa olahraga dapat memengaruhi mikrobiota usus, yang berperan dalam metabolisme toksin uremik seperti indoksil sulfat dan p-kresil sulfat. Kedua toksin ini diketahui berkontribusi pada perburukan PGK melalui kerusakan endotel dan stres oksidatif. Aktivitas fisik membantu memperbaiki keseimbangan mikrobiota usus, sehingga menurunkan produksi toksin tersebut.\n\nOlahraga teratur tidak hanya membantu mengendalikan faktor risiko di atas, tetapi juga memiliki dampak langsung terhadap fungsi ginjal. Studi menunjukkan bahwa aktivitas fisik meningkatkan perfusi ginjal dan merangsang angiogenesis, yang mendukung regenerasi jaringan ginjal. Selain itu, olahraga memiliki efek antiinflamasi yang dapat menurunkan kadar sitokin proinflamasi seperti TNF-α dan IL-6, yang sering meningkat pada pasien dengan PGK.\n\nPada pasien dengan PGK, olahraga juga terbukti meningkatkan kapasitas fungsional dan kualitas hidup secara keseluruhan. Sebagai contoh, pasien yang menjalani program latihan fisik intensitas sedang selama 12 minggu menunjukkan peningkatan kapasitas VO2 maksimal, pengurangan kelelahan, serta perbaikan kontrol tekanan darah.\n\nMeskipun olahraga memiliki banyak manfaat, pendekatan ini harus disesuaikan dengan kondisi individu. Pada pasien dengan PGK stadium lanjut atau dialisis, intensitas olahraga harus dikontrol untuk menghindari dehidrasi atau gangguan elektrolit. Konsultasi dengan tenaga medis diperlukan untuk merancang program olahraga yang aman dan efektif.</string>
+
+    <string name="meningkatkan_perfusi_ginjal">Meningkatkan Perfusi Ginjal</string>
+    <string name="meningkatkan_prefusi_ginjal_isi">Olahraga teratur meningkatkan aliran darah ke ginjal, yang membantu memperbaiki fungsi filtrasi glomerulus. Peningkatan perfusi ini mendukung pengeluaran zat-zat sisa metabolisme yang lebih efektif.</string>
+
+    <string name="mengontrol_tekanan_darah">Mengontrol Tekanan Darah</string>
+    <string name="mengontroll_tekanan_darah_is">Hipertensi adalah penyebab utama PGK. Aktivitas fisik aerobik secara teratur dapat membantu menurunkan tekanan darah sistolik dan diastolik, sehingga mengurangi beban pada ginjal.</string>
+
+    <string name="mengontrol_gula_darah_isi">Pada pasien diabetes, olahraga membantu meningkatkan sensitivitas insulin dan mengurangi kadar gula darah, sehingga melindungi ginjal dari nefropati diabetik.\nBerikut olahraga untuk mengontrol gula darah :</string>
+    <string name="olahraga_aerobik">
+        <![CDATA[
+        <b>Olahraga Aerobik</b><br/>
+        <b>Manfaat</b><br/>
+        Membantu meningkatkan sensitivitas insulin dan mengontrol kadar gula darah. Olahraga ini meningkatkan penggunaan glukosa oleh otot untuk energi.<br/>
+        <b>Contoh Aktivitas</b><br/>
+        Jalan cepat, Bersepeda, Berlari, Berenang, Menari (seperti zumba)<br/>
+        <b>Durasi yang Disarankan</b> : 30 menit per hari, minimal 5 hari seminggu (total 150 menit per minggu).
+        ]]>
+    </string>
+
+    <string name="latihan_kekuatan">
+        <![CDATA[
+        <b>Latihan Kekuatan</b><br/>
+        <b>Manfaat</b><br/>
+        Latihan kekuatan (resistance training) meningkatkan massa otot, sehingga tubuh lebih efisien menggunakan glukosa dari darah. Otot yang lebih besar membutuhkan lebih banyak energi, yang membantu menurunkan kadar gula darah.<br/>
+        <b>Contoh Aktivitas</b><br/>
+        Angkat beban (dumbbell, kettlebell), Latihan resistance band, Push-up, sit-up, atau squat<br/>
+        <b>Frekuensi yang Disarankan</b> : 2-3 kali seminggu, dengan istirahat minimal satu hari di antara sesi.
+        ]]>
+    </string>
+
+    <string name="hiit">
+        <![CDATA[
+        <b>Latihan Interval Intensitas Tinggi (HIIT)</b><br/>
+        <b>Manfaat</b><br/>
+        HIIT melibatkan latihan singkat dengan intensitas tinggi diikuti oleh periode istirahat singkat. Jenis olahraga ini efektif meningkatkan sensitivitas insulin dan mengontrol gula darah lebih baik dalam waktu yang singkat.<br/>
+        <b>Contoh Aktivitas</b><br/>
+        Sprint singkat (30 detik lari cepat, 1 menit berjalan), Lompat tali dengan intensitas tinggi, Bersepeda dengan kecepatan tinggi selama beberapa menit<br/>
+        <b>Durasi yang Disarankan</b> : 15–20 menit per sesi, 2–3 kali seminggu.
+        ]]>
+    </string>
+    <string name="mengontroll_gula_darah">Mengontroll Gula Darah</string>
+
+    <string name="menurunkan_resiko_obesitas">Menurunkan Resiko Obesitas</string>
+    <string name="menurunkan_resiko_obesitas_isi">Obesitas berhubungan dengan peningkatan risiko penyakit ginjal akibat glomerulosklerosis. Olahraga membantu mengurangi berat badan dan mengontrol indeks massa tubuh (IMT), yang mengurangi tekanan mekanik dan metabolik pada ginjal.</string>
+
+    <string name="mengurangi_peradangan_sistemik">Mengurangi Peradangan Sistemik</string>
+    <string name="mengurangi_peradangan_sistemik_isi">Penyakit ginjal kronis sering disertai dengan peradangan sistemik. Olahraga dapat menurunkan kadar sitokin inflamasi seperti TNF-α dan IL-6, sehingga memperlambat progresivitas penyakit ginjal.</string>
+
+    <string name="meningkatkan_fungsi_kardiovaskular">Meningkatkan Fungsi Kardiovaskular</string>
+    <string name="meningkatkan_fungsi_kardiovaskular_isi">Pasien dengan penyakit ginjal sering mengalami komplikasi kardiovaskular. Olahraga membantu meningkatkan kesehatan jantung, yang pada akhirnya mendukung fungsi ginjal karena kedua organ ini saling berkaitan erat dalam sistem perfusi.</string>
+
+    <string name="meningkatkan_kesejahteraan_psikologis">Meningkatkan Kesejahteraan Psikologis</string>
+    <string name="meningkatkan_kesehatan_psikologis_isi">Olahraga dapat meningkatkan kualitas hidup, mengurangi stres, dan mencegah depresi yang sering terjadi pada pasien dengan penyakit ginjal kronis.\n\nContoh olahraga yang dapat Meningkatkan Kesejahteraan Psikologis : </string>
+
+    <string name="yoga">
+        <![CDATA[
+        <b>Yoga</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Yoga membantu menenangkan pikiran, mengurangi stres, kecemasan, dan depresi melalui teknik pernapasan, meditasi, dan peregangan tubuh.<br/>
+        <b>&#8226; Efek</b><br/>
+        Memicu pelepasan endorfin, meningkatkan fokus, serta memberikan rasa tenang dan rileks.<br/>
+        <b>&#8226; Cocok untuk</b>: Semua usia, terutama bagi mereka yang ingin mengatasi stres kronis atau gangguan kecemasan.
+    ]]>
+    </string>
+
+    <string name="lari">
+        <![CDATA[
+        <b>Lari (Jogging)</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Lari, terutama di ruang terbuka, dapat memicu runners high, yaitu perasaan euforia yang muncul setelah berlari karena pelepasan endorfin.<br/>
+        <b>&#8226; Efek</b><br/>
+        Membantu mengurangi gejala depresi, meningkatkan kepercayaan diri, dan memberikan waktu untuk refleksi pribadi.<br/>
+        <b>&#8226; Cocok untuk</b>: Individu yang ingin meluangkan waktu untuk diri sendiri dan mengatasi stres melalui aktivitas fisik.
+        ]]>
+    </string>
+
+    <string name="bersepeda">
+        <![CDATA[
+        <b>Bersepeda</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Bersepeda, terutama di lingkungan yang asri, memberikan sensasi kebebasan dan relaksasi, yang dapat membantu mengatasi stres dan meningkatkan suasana hati.<br/>
+        <b>&#8226; Efek</b><br/>
+        Membantu meningkatkan fokus, mengurangi ketegangan mental, dan memberikan rasa petualangan.<br/>
+        <b>&#8226; Cocok untuk</b>: Semua kalangan, terutama mereka yang suka berada di luar ruangan.
+        ]]>
+    </string>
+
+    <string name="renang">
+        <![CDATA[
+        <b>Renang</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Gerakan di dalam air memberikan efek relaksasi yang dapat menurunkan hormon stres (kortisol) dan meningkatkan hormon kebahagiaan.<br/>
+        <b>&#8226; Efek</b><br/>
+        Mengurangi ketegangan otot dan mental, serta meningkatkan kualitas tidur.<br/>
+        <b>&#8226; Cocok untuk</b>: Orang yang mencari aktivitas fisik ringan yang menenangkan.
+        ]]>
+    </string>
+
+    <string name="pilates">
+        <![CDATA[
+        <b>Pilates</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Pilates fokus pada kontrol tubuh dan pernapasan, yang membantu menurunkan stres dan meningkatkan konsentrasi.<br/>
+        <b>&#8226; Efek</b><br/>
+        Meningkatkan keseimbangan antara tubuh dan pikiran, serta membantu meredakan kecemasan.<br/>
+        <b>&#8226; Cocok untuk</b>: Mereka yang ingin meningkatkan postur tubuh sekaligus menenangkan pikiran.
+        ]]>
+    </string>
+
+    <string name="tai_chi">
+        <![CDATA[
+        <b>Tai Chi</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Olahraga tradisional Tiongkok ini menggabungkan gerakan lambat dengan pernapasan yang dalam, memberikan efek meditatif.<br/>
+        <b>&#8226; Efek</b><br/>
+        Mengurangi stres, meningkatkan ketenangan, dan memperbaiki suasana hati.<br/>
+        <b>&#8226; Cocok untuk</b>: Orang yang membutuhkan olahraga ringan yang juga fokus pada keseimbangan mental.
+        ]]>
+    </string>
+
+    <string name="zumba">
+        <![CDATA[
+        <b>Zumba atau Tarian</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Zumba atau tarian bebas memberikan rasa kegembiraan, meningkatkan energi, dan memperbaiki suasana hati.<br/>
+        <b>&#8226; Efek</b><br/>
+        Membantu melepaskan hormon dopamin (hormon kebahagiaan) dan meningkatkan rasa percaya diri.<br/>
+        <b>&#8226; Cocok untuk</b>: Mereka yang ingin olahraga yang menyenangkan dan energik.
+        ]]>
+    </string>
+
+    <string name="olahraga_tim">
+        <![CDATA[
+        <b>Olahraga Tim (Sepak Bola, Basket, Voli, dll.)</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Berolahraga dalam tim meningkatkan rasa keterhubungan sosial, mengurangi kesepian, dan mempromosikan kerja sama.<br/>
+        <b>&#8226; Efek</b><br/>
+        Meningkatkan rasa percaya diri, memberikan dukungan emosional, dan mengurangi gejala depresi.<br/>
+        <b>&#8226; Cocok untuk</b>: Orang yang menyukai aktivitas sosial.
+        ]]>
+    </string>
+
+    <string name="hiking">
+        <![CDATA[
+        <b>Hiking (Mendaki Gunung atau Trekking)</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Berjalan di alam terbuka membantu mengurangi stres, meningkatkan kreativitas, dan memberikan perasaan tenang.<br/>
+        <b>&#8226; Efek</b><br/>
+        Menurunkan tekanan darah dan kadar kortisol, serta memberikan waktu untuk refleksi diri.<br/>
+        <b>&#8226; Cocok untuk</b>: Mereka yang menyukai eksplorasi alam.
+        ]]>
+    </string>
+
+    <string name="latihan_kardio_ringan">
+        <![CDATA[
+        <b>Latihan Kardio Ringan</b><br/>
+        <b>&#8226; Manfaat Psikologis</b><br/>
+        Olahraga seperti jalan cepat atau lompat tali dapat meningkatkan aliran darah ke otak, memperbaiki mood, dan mengurangi gejala stres.<br/>
+        <b>&#8226; Efek</b><br/>
+        Merangsang pelepasan serotonin, hormon yang terkait dengan kebahagiaan dan ketenangan.<br/>
+        <b>&#8226; Cocok untuk</b>: Semua kalangan, terutama yang mencari aktivitas ringan yang dapat dilakukan di rumah.
+        ]]>
+    </string>
 
 </resources>
