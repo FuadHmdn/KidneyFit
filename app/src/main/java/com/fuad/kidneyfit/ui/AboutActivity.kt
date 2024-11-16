@@ -30,16 +30,17 @@ class AboutActivity : AppCompatActivity() {
     private fun setListener() {
         binding.btnLanjutkan.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             startActivity(intent)
         }
     }
 
     private fun setContent() {
-        ObjectAnimator.ofFloat(binding.img, View.TRANSLATION_X, -30f, 30f).apply {
-            duration = 6000
-            repeatCount = ObjectAnimator.INFINITE
-            repeatMode = ObjectAnimator.REVERSE
-        }.start()
+//        ObjectAnimator.ofFloat(binding.img, View.TRANSLATION_X, -30f, 30f).apply {
+//            duration = 6000
+//            repeatCount = ObjectAnimator.INFINITE
+//            repeatMode = ObjectAnimator.REVERSE
+//        }.start()
 
         val welcome = ObjectAnimator.ofFloat(binding.welcome, View.ALPHA, 1f).setDuration(700)
         val about = ObjectAnimator.ofFloat(binding.about, View.ALPHA, 1f).setDuration(700)
